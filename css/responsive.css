@@ -1,0 +1,40 @@
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner .banner_content h1 {
+        font-size: 55px;
+        letter-spacing: 25px;
+    }
+    #about .about_item {
+        padding: 35px 40px 55px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    #banner {
+        height: 650px;
+    }
+    #banner .banner_content h4 {
+        font-size: 26px;
+    }
+    #banner .banner_content h1 {
+        font-size: 40px;
+        letter-spacing: 18px;
+    }
+    #banner .banner_content a {
+        padding: 12px 40px;
+    }
+
+    #about .about_item {
+        padding: 35px 80px 55px;
+    }
+    #about .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #service{
+        background: #f0f0e8 !important;
+    }
+}
+
+@media (max-width:991.98px){
+    #service{
+        background: #f0f0e8 !important;
+    }
+}
