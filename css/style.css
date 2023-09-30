@@ -19,6 +19,24 @@ a,a:hover{
 body,textarea{
     font-family:'Open Sans', sans-serif;
 }
+.section_info{
+    margin-bottom: 80px;
+}
+.section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+.section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
 /* Common Css End */
 
 /*  Nav Section Start */
@@ -86,25 +104,6 @@ body,textarea{
 #about{
     padding: 98px 0;
 }
-#about .about_info{
-    text-align: center;
-    padding: 0 137px;
-    margin-bottom: 80px;
-}
-#about .about_info h2{
-    font-size: 46px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: var(--primary-color);
-}
-#about .about_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color:var(--dark-color);
-}
-#about .about_info p b{
-    font-size: 23px;
-}
 #about .about_item{
     width: 25%;
     padding: 36px 65px;
@@ -129,17 +128,6 @@ body,textarea{
 /* Service Section Start */
 #service{
     padding: 98px 0;
-}
-#service .service_info h2{
-    font-size: 46px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color:var(--primary-color);
-}
-#service .service_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color:var(--dark-color);
 }
 #service .service_item{
     padding-right: 78px;
@@ -167,27 +155,6 @@ body,textarea{
 #my_work{
     padding: 98px 0;
 }
-#my_work .work_info{
-    text-align: center;
-    padding: 0 137px;
-    margin-bottom: 80px;
-}
-#my_work .work_info h2{
-    font-size: 46px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: var(--primary-color);
-}
-#my_work .work_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color:var(--dark-color);
-}
-
-
-#my_work .work_item .img_info {
-    position: relative;
-}
 #my_work .work_item .img_info .text_info {
     position: absolute;
     top: 20px;
@@ -208,22 +175,6 @@ body,textarea{
 /* My Work Section End */
 
 /* Contact Section Start */
-#contact .contact_info{
-    text-align: center;
-    padding: 0 137px;
-    margin-bottom: 80px;
-}
-#contact .contact_info h2{
-    font-size: 46px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color:var(--primary-color);
-}
-#contact .contact_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color:var(--dark-color);
-}
 #contact .contact_item{
     height: 560px;
     background-color: #0b0b0b;
