@@ -155,15 +155,16 @@ body,textarea{
 #my_work{
     padding: 98px 0;
 }
-#my_work .work_item .img_info .text_info {
+#my_work .work_item .overlay {
     position: absolute;
-    top: 20px;
-    left: 28px;
-    padding: 52px 30px;
+    inset: 20px 28px;
+    padding: 16px 16px;
     background-color: rgba(2,145,140,0.85);
-    opacity: 0;
-    visibility: hidden;
+    transform: scale(0);
     transition: .5s;
+}
+#my_work .work_item:hover .overlay {
+    transform: scale(1);
 }
 #my_work .work_item .img_info .text_info h4 {
     color: var(--secondary-color);
