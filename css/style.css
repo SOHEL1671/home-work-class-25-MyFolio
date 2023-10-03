@@ -35,7 +35,18 @@ body,textarea{
 }
 .section_info p b{
     font-size: 23px;
-    font-weight: 800;
+    line-height: 41px;
+    font-weight: 600;
+}
+.section_item h3{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 600;
+    padding: 29px 0;
+}
+.section_item p{
+    font-size: 11px;
+    line-height: 21px;
 }
 /* Common Css End */
 
@@ -69,6 +80,7 @@ body,textarea{
 }
 #banner a {
     font-size: 14px;
+    font-weight: 600;
     line-height: 30px;
     color: #0b1016;
     background-color:var(--btn-color);
@@ -82,7 +94,7 @@ body,textarea{
     background-color:rgb(255, 238, 0);
     transition: .5s;
 }
-#banner h3{
+#banner h4{
     font-weight: 400;
     font-size: 30px;
     line-height: 25px;
@@ -96,7 +108,7 @@ body,textarea{
 }
 #banner p{
     font-size: 18px;
-    list-style: 30px;
+    list-style: 33px;
 }
 /* Banner Section End */
 
@@ -104,24 +116,15 @@ body,textarea{
 #about{
     padding: 98px 0;
 }
-#about .about_item{
+#about .section_item{
     width: 25%;
-    padding: 36px 65px;
+    padding: 35px 65px;
     text-align: center;
     color:var(--dark-color);
     border-right: 1px solid #d9bdbd;
 }
-#about .about_item:last-child{
+#about .section_item:last-child{
     border-right-color:transparent;
-}
-#about .about_item h3{
-    font-size: 16px;
-    line-height: 23px;
-    padding: 29px 0;
-}
-#about .about_item p{
-    font-size:11px ;
-    line-height: 21px;
 }
 /* About Section End */
 
@@ -129,18 +132,11 @@ body,textarea{
 #service{
     padding: 98px 0;
 }
-#service .service_item{
-    padding-right: 78px;
+#service .section_item{
     color: var(--dark-color);
 }
-#service .service_item h3{
-    font-size: 16px;
-    line-height: 23px;
-    padding: 17px 0;
-}
-#service .service_item p{
-    font-size:11px ;
-    line-height: 21px;
+#service .section_item p{
+    padding-right: 73px;
 }
 #service img{
     margin-top: 50px;
@@ -155,32 +151,40 @@ body,textarea{
 #my_work{
     padding: 98px 0;
 }
-#my_work .work_item .overlay {
+#my_work .section_item .overlay {
     position: absolute;
     inset: 20px 28px;
-    padding: 16px 16px;
     background-color: rgba(2,145,140,0.85);
     transform: scale(0);
     transition: .5s;
 }
-#my_work .work_item:hover .overlay {
+#my_work .img_info:hover .overlay {
     transform: scale(1);
 }
-#my_work .work_item .img_info .text_info h4 {
+#my_work .section_item .text_info{
+    padding: 25px 16px;
+}
+#my_work .section_item .img_info .text_info h3 {
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 23px;
-    font-weight: 800;
+    font-weight: 600;
+    padding: 10px;
 }
-
+#my_work .section_item .img_info .text_info p{
+    color: var(--secondary-color);
+    font-size: 13px;
+    line-height: 21px;
+}
 /* My Work Section End */
 
 /* Contact Section Start */
-#contact .contact_item{
+
+#contact .section_item{
     height: 560px;
     background-color: #0b0b0b;
 }
-#contact .contact_item input, textarea{
+#contact input, textarea{
     background: #0b0b0b;
     border: none;
     border-bottom: 3px solid var(--dark-color);
@@ -188,6 +192,12 @@ body,textarea{
     color: var(--dark-color);
     text-align: center;
     margin-bottom: 25px;
+}
+#contact button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 38px;
+    letter-spacing: 3px;
 }
 /* Contact Section End */
 
